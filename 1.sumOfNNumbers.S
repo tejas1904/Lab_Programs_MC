@@ -5,7 +5,7 @@ entry
 		mov		r2,#0
 		mov		r3,#5
 loop		add		r2,r2,r1  ;r2 final sum
-		ldrh		r1,[r0,#4]!
+		ldrh		r1,[r0,#2]!
 		subs		r3,r3,#1
 		bne		loop
 		str		r2,[r7]   ;sum store in 0x200 memory location
