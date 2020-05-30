@@ -4,8 +4,8 @@ entry
 		
 		
 loop
-		ldmia	r0!,{r3-r8}
-		stmia	r1!,{r3-r8}
+		ldmia	r0!,{r3-r9}
+		stmia	r1!,{r3-r9}
 		
 string1	dcd		'd','e','n','m','a','r','k',0
 stop		b		stop
